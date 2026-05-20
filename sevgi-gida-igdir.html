@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sevgi Gıda Iğdır | Kars, Iğdır, Ardahan Yöresel Ürünler - Kaşar, Bal, Tereyağı</title>
+<meta name="description" content="Sevgi Gıda Iğdır - Kars, Iğdır ve Ardahan'ın en taze yöresel ürünleri. Taze kaşar, eski kaşar, çeçil peyniri, doğal bal, tereyağı, sade yağ. Telefon siparişi için hemen arayın!">
+<meta name="keywords" content="Iğdır şarküteri, Iğdır yöresel ürünler, Kars kaşar, Iğdır kaşar peyniri, Kars tereyağı, Iğdır bal, çeçil peyniri Iğdır, sade yağ Iğdır, Ardahan peynir, Iğdır gıda">
+<meta property="og:title" content="Sevgi Gıda Iğdır | Yöresel Ürünler">
+<meta property="og:description" content="Kars, Iğdır ve Ardahan'ın en taze yöresel ürünleri. Kaşar, bal, tereyağı, çeçil ve daha fazlası.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<link rel="canonical" href="https://sevgigida.com.tr/">
+
+<!-- Schema.org yapısal veri - SEO için kritik -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sevgi Gıda Iğdır",
+  "description": "Kars, Iğdır ve Ardahan bölgesinin taze yöresel ürünleri - kaşar peyniri, bal, tereyağı, çeçil peyniri ve daha fazlası",
+  "telephone": "+905550077699",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Vali Konağı Yolu Cd. No:76, Bağlar",
+    "addressLocality": "Iğdır",
+    "addressRegion": "Iğdır",
+    "postalCode": "76000",
+    "addressCountry": "TR"
+  },
+  "areaServed": "Iğdır",
+  "openingHours": "Mo-Sa 08:00-20:00",
+  "priceRange": "₺₺"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --cream: #FDF8F0;
+    --warm-white: #FFFDF9;
+    --gold: #C8860A;
+    --gold-light: #F5D87A;
+    --gold-dark: #7A500A;
+    --brown: #4A2C0A;
+    --brown-mid: #7A4A1A;
+    --green: #2D5A27;
+    --green-light: #E8F5E3;
+    --text: #2C1A05;
+    --text-muted: #7A6040;
+    --border: #E8D5B0;
+    --red: #C0392B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ---- STICKY HEADER ---- */
+  .sticky-order {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: var(--brown);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  }
+  .sticky-order .brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: 0.5px;
+  }
+  .sticky-order .brand span { font-size: 13px; color: #ddd; font-family: 'Nunito', sans-serif; font-weight: 400; display: block; }
+  .call-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--gold);
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
+  .call-btn:hover { background: var(--gold-dark); }
+  .call-btn svg { flex-shrink: 0; }
+
+  /* ---- HERO ---- */
+  .hero {
+    margin-top: 54px;
+    background: linear-gradient(135deg, var(--brown) 0%, var(--brown-mid) 60%, #9A5A20 100%);
+    color: #fff;
+    text-align: center;
+    padding: 64px 24px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: var(--gold-light);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 16px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 6vw, 58px);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 18px;
+    color: #fff;
+  }
+  .hero h1 em {
+    color: var(--gold-light);
+    font-style: normal;
+  }
+  .hero p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.85);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--gold);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 36px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    transition: transform 0.2s, background 0.2s;
+    box-shadow: 0 4px 20px rgba(200,134,10,0.5);
+  }
+  .hero-cta:hover { background: var(--gold-dark); transform: translateY(-2px); }
+  .hero-note {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  /* ---- TRUST BADGES ---- */
+  .trust-bar {
+    background: var(--warm-white);
+    border-top: 3px solid var(--gold);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 24px;
+  }
+  .trust-bar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 32px;
+  }
+  .trust-bar li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--brown);
+  }
+  .trust-bar li svg { color: var(--gold); flex-shrink: 0; }
+
+  /* ---- SECTION COMMON ---- */
+  section { padding: 64px 24px; }
+  .section-title {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(26px, 4vw, 40px);
+    font-weight: 700;
+    color: var(--brown);
+    margin-bottom: 10px;
+  }
+  .section-title p {
+    font-size: 16px;
+    color: var(--text-muted);
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .section-title .divider {
+    width: 60px;
+    height: 3px;
+    background: var(--gold);
+    margin: 14px auto 0;
+    border-radius: 2px;
+  }
+
+  /* ---- CATEGORIES ---- */
+  .categories { background: var(--cream); }
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .cat-card {
+    background: var(--warm-white);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, transform 0.2s;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .cat-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+  .cat-icon {
+    font-size: 40px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .cat-card h3 { font-size: 14px; font-weight: 700; color: var(--brown); }
+  .cat-card span { font-size: 12px; color: var(--text-muted); }
+
+  /* ---- PRODUCTS ---- */
+  .products { background: var(--warm-white); }
+  .product-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .filter-btn {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1.5px solid var(--border);
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: all 0.2s;
+    font-family: 'Nunito', sans-serif;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--brown);
+    border-color: var(--brown);
+    color: #fff;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .product-card {
+    background: var(--cream);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .product-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+  .product-card[data-cat] { display: block; }
+  .product-card.hidden { display: none; }
+  .product-img {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    background: linear-gradient(135deg, var(--border) 0%, #efe0c0 100%);
+    overflow: hidden;
+  }
+  .product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+  }
+  .product-card:hover .product-img img {
+    transform: scale(1.05);
+  }
+  .product-body { padding: 16px; }
+  .product-cat-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 6px;
+  }
+  .product-body h3 { font-size: 15px; font-weight: 700; color: var(--brown); margin-bottom: 6px; }
+  .product-body p { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.5; }
+  .product-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-unit { font-size: 12px; color: var(--text-muted); }
+  .order-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--gold);
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 14px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: background 0.2s;
+  }
+  .order-link:hover { background: var(--gold-dark); }
+
+  /* ---- WHY US ---- */
+  .why { background: var(--cream); }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .why-card {
+    background: var(--warm-white);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .why-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--green-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 auto 16px;
+  }
+  .why-card h3 { font-size: 16px; font-weight: 700; color: var(--brown); margin-bottom: 8px; }
+  .why-card p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+
+  /* ---- HOW TO ORDER ---- */
+  .how { background: var(--brown); color: #fff; text-align: center; }
+  .how .section-title h2 { color: #fff; }
+  .how .section-title p { color: rgba(255,255,255,0.7); }
+  .how .divider { background: var(--gold-light); }
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    max-width: 800px;
+    margin: 0 auto 48px;
+  }
+  .step { max-width: 200px; }
+  .step-num {
+    width: 56px;
+    height: 56px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0 auto 14px;
+    font-family: 'Playfair Display', serif;
+  }
+  .step h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; color: var(--gold-light); }
+  .step p { font-size: 14px; color: rgba(255,255,255,0.7); }
+  .big-call {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--gold);
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 4px 24px rgba(200,134,10,0.5);
+    margin-bottom: 12px;
+    display: inline-flex;
+  }
+  .big-call:hover { background: var(--gold-dark); transform: translateY(-2px); }
+  .how-note { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 12px; }
+
+  /* ---- ABOUT ---- */
+  .about { background: var(--warm-white); }
+  .about-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-inner p {
+    font-size: 16px;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .about-inner strong { color: var(--brown); }
+
+  /* ---- FOOTER ---- */
+  footer {
+    background: #1A0D03;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    padding: 32px 24px;
+  }
+  footer a { color: var(--gold-light); text-decoration: none; }
+  footer .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--gold-light);
+    margin-bottom: 12px;
+  }
+  footer p { font-size: 13px; margin-bottom: 8px; }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 600px) {
+    .sticky-order { padding: 10px 16px; }
+    .sticky-order .brand span { display: none; }
+    section { padding: 48px 16px; }
+    .hero { padding: 48px 16px 64px; }
+    .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  }
+</style>
+</head>
+<body>
+
+<!-- Sticky Header -->
+<header class="sticky-order">
+  <div class="brand">
+    Sevgi Gıda
+    <span>Iğdır Yöresel Ürünler</span>
+  </div>
+  <a href="tel:+905550077699" class="call-btn">
+    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    Sipariş Ver
+  </a>
+</header>
+
+<!-- Hero -->
+<section class="hero" aria-label="Ana başlık">
+  <div class="hero-badge">📍 Iğdır · Kars · Ardahan</div>
+  <h1>Doğadan Sofranıza<br><em>Gerçek Lezzet</em></h1>
+  <p>Iğdır, Kars ve Ardahan'ın en taze yöresel ürünleri — kaşar, bal, tereyağı, çeçil ve daha fazlası. Kapınıza kadar teslim.</p>
+  <a href="tel:+905550077699" class="hero-cta" aria-label="Telefon siparişi ver">
+    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    Hemen Ara & Sipariş Ver
+  </a>
+</section>
+
+<!-- Trust Bar -->
+<div class="trust-bar" role="complementary" aria-label="Özellikler">
+  <ul>
+    <li>
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      %100 Doğal &amp; Katkısız
+    </li>
+    <li>
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      Günlük Taze Ürün
+    </li>
+    <li>
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      Doğrudan Üreticiden
+    </li>
+    <li>
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      Iğdır'a Aynı Gün Teslimat
+    </li>
+    <li>
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      Güvenilir Alışveriş
+    </li>
+  </ul>
+</div>
+
+<!-- Kategoriler -->
+<section class="categories" id="urunler" aria-labelledby="cat-title">
+  <div class="section-title">
+    <h2 id="cat-title">Ürün Kategorilerimiz</h2>
+    <p>Kars, Iğdır ve Ardahan bölgesinin en seçkin yöresel ürünleri</p>
+    <div class="divider"></div>
+  </div>
+  <div class="cat-grid">
+    <a class="cat-card" href="#tum" onclick="filterProducts('peynir')">
+      <span class="cat-icon" aria-hidden="true">🧀</span>
+      <h3>Peynir Çeşitleri</h3>
+      <span>Kaşar, Çeçil, Tulum</span>
+    </a>
+    <a class="cat-card" href="#tum" onclick="filterProducts('bal')">
+      <span class="cat-icon" aria-hidden="true">🍯</span>
+      <h3>Bal Çeşitleri</h3>
+      <span>Petek, Süzme, Karakovan</span>
+    </a>
+    <a class="cat-card" href="#tum" onclick="filterProducts('yag')">
+      <span class="cat-icon" aria-hidden="true">🧈</span>
+      <h3>Yağ Çeşitleri</h3>
+      <span>Tereyağı, Sade Yağ</span>
+    </a>
+    <a class="cat-card" href="#tum" onclick="filterProducts('sarkuteri')">
+      <span class="cat-icon" aria-hidden="true">🥩</span>
+      <h3>Şarküteri</h3>
+      <span>Sucuk, Kavurma, Pastırma</span>
+    </a>
+    <a class="cat-card" href="#tum" onclick="filterProducts('yoresel')">
+      <span class="cat-icon" aria-hidden="true">🌿</span>
+      <h3>Yöresel Ürünler</h3>
+      <span>Erişte, Pekmez, Reçel</span>
+    </a>
+    <a class="cat-card" href="#tum" onclick="filterProducts('')">
+      <span class="cat-icon" aria-hidden="true">🛒</span>
+      <h3>Tüm Ürünler</h3>
+      <span>Tümünü Gör</span>
+    </a>
+  </div>
+</section>
+
+<!-- Ürünler -->
+<section class="products" id="tum" aria-labelledby="prod-title">
+  <div class="section-title">
+    <h2 id="prod-title">Ürünlerimiz</h2>
+    <p>Iğdır'ın en taze yöresel ürünleri — sipariş için hemen arayın</p>
+    <div class="divider"></div>
+  </div>
+
+  <div class="product-filter" role="group" aria-label="Ürün filtrele">
+    <button class="filter-btn active" onclick="filterProducts('')">Tümü</button>
+    <button class="filter-btn" onclick="filterProducts('peynir')">🧀 Peynir</button>
+    <button class="filter-btn" onclick="filterProducts('bal')">🍯 Bal</button>
+    <button class="filter-btn" onclick="filterProducts('yag')">🧈 Yağ</button>
+    <button class="filter-btn" onclick="filterProducts('sarkuteri')">🥩 Şarküteri</button>
+    <button class="filter-btn" onclick="filterProducts('yoresel')">🌿 Yöresel</button>
+  </div>
+
+  <div class="product-grid" id="productGrid">
+
+    <!-- PEYNIR -->
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/taze-kasar.png" alt="Taze Kaşar Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Taze Kaşar Peyniri</h3>
+        <p>Kars ve Iğdır yaylalarından gelen tam yağlı taze kaşar. Vakumlu paket.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link" aria-label="Taze Kaşar Peyniri siparişi ver">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/eski-kasar.png" alt="Eski Kaşar Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Eski Kaşar Peyniri</h3>
+        <p>1.5 yıl soğuk hava deposunda dinlendirilen olgunlaşmış kaşar. Derin aromalı.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link" aria-label="Eski Kaşar siparişi ver">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/blok-kasar.png" alt="Blok Kaşar Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Blok Kaşar</h3>
+        <p>Geleneksel usulde blok halinde işlenen tam yağlı kaşar. Kesim yapılabilir.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/cecil.png" alt="Çeçil Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Çeçil Peyniri</h3>
+        <p>Kars usulü kurutulmuş çeçil. Tel tel ayrılan, hafif tuzlu, doğal peynir.</p>
+        <div class="product-footer">
+          <span class="product-unit">500 g / 1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/yagli-cecil.png" alt="Yağlı Çeçil Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Yağlı Çeçil</h3>
+        <p>Tost, muhlama ve kahvaltı için ideal. Vakumlu dil peyniri şeklinde.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/kars-tulumu.png" alt="Kars Tulumu" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Kars Tulumu</h3>
+        <p>İnek sütünden yapılan Kars tulumu. Hafif, kremamsı dokusuyla kahvaltının vazgeçilmezi.</p>
+        <div class="product-footer">
+          <span class="product-unit">500 g / 1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="peynir">
+      <div class="product-img"><img src="images/beyaz-peynir.png" alt="Beyaz Peynir" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Peynir</div>
+        <h3>Beyaz Peynir</h3>
+        <p>Tam yağlı inek sütünden salamura beyaz peynir. Vakumlu pakette taze teslim.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- BAL -->
+    <article class="product-card" data-cat="bal">
+      <div class="product-img"><img src="images/karakovan-bal.png" alt="Karakovan Petek Bal" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Bal</div>
+        <h3>Karakovan Petek Bal</h3>
+        <p>Kars yaylalarında geleneksel karakovan usulü üretilen petek bal. Mumu doğal.</p>
+        <div class="product-footer">
+          <span class="product-unit">1.5 - 1.7 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="bal">
+      <div class="product-img"><img src="images/cicek-petek-bal.png" alt="Çiçek Petek Bal" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Bal</div>
+        <h3>Çiçek Petek Bal</h3>
+        <p>Çiçek nektarından elde edilen petek bal. Doğal aromasıyla sofraları süsler.</p>
+        <div class="product-footer">
+          <span class="product-unit">2 - 2.3 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="bal">
+      <div class="product-img"><img src="images/suzme-bal.png" alt="Doğal Süzme Bal" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Bal</div>
+        <h3>Doğal Süzme Bal</h3>
+        <p>Dağ köylerinden katkısız çiçek balı. Şişede, ıslak kaşık değdirmeden saklayın.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- YAG -->
+    <article class="product-card" data-cat="yag">
+      <div class="product-img"><img src="images/tereyagi.png" alt="Doğal Tereyağı" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Yağ</div>
+        <h3>Doğal Tereyağı</h3>
+        <p>Katkı maddesi içermeyen, tuzsuz, tam yağlı tereyağı. Hem yemeklik hem kahvaltılık.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="yag">
+      <div class="product-img"><img src="images/sade-yag.png" alt="Sade Yağ" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Yağ</div>
+        <h3>Sade Yağ (Erimiş Yağ)</h3>
+        <p>Tereyağının en saf hali. Lavaş, pilav ve hamur işleri için vazgeçilmez.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- ŞARKÜTERİ -->
+    <article class="product-card" data-cat="sarkuteri">
+      <div class="product-img"><img src="images/sucuk.png" alt="Kars Sucuğu" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Şarküteri</div>
+        <h3>Kars Sucuğu</h3>
+        <p>Yöresel dana sucuk. Kahvaltı, mangal ve pişi için mükemmel. Vakumlu pakette.</p>
+        <div class="product-footer">
+          <span class="product-unit">500 - 550 g</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="sarkuteri">
+      <div class="product-img"><img src="images/kavurma.png" alt="Kars Kavurması" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Şarküteri</div>
+        <h3>Kars Kavurması</h3>
+        <p>Geleneksel usulde hazırlanan dana kavurma. Derin lezzetiyle Kars mutfağının simgesi.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="sarkuteri">
+      <div class="product-img"><img src="images/kaz.png" alt="Kars Kazı" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Şarküteri</div>
+        <h3>Kars Kazı</h3>
+        <p>Kars yöresine özgü geleneksel kaz eti. Nadir bulunan, özel bir lezzet.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 adet</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- YÖRESEL -->
+    <article class="product-card" data-cat="yoresel">
+      <div class="product-img"><img src="images/eriste.png" alt="Kars Eriştesi" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Yöresel</div>
+        <h3>Kars Eriştesi</h3>
+        <p>El yapımı kurutulmuş Kars eriştesi. Tereyağında kavurarak servis edilir.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="yoresel">
+      <div class="product-img"><img src="images/dut-pekmezi.png" alt="Dut Pekmezi" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Yöresel</div>
+        <h3>Dut Pekmezi</h3>
+        <p>Ev yapımı, katkısız dut pekmezi. Bağışıklığı destekler, kahvaltıların vazgeçilmezi.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="yoresel">
+      <div class="product-img"><img src="images/yesil-cecil.png" alt="Yeşil Çeçil Peyniri" loading="lazy"></div>
+      <div class="product-body">
+        <div class="product-cat-tag">Yöresel</div>
+        <h3>Yeşil Çeçil Peyniri</h3>
+        <p>Sofralara renk ve lezzet katan yeşil çeçil. Lavaş ve sade yağ ile servis edilir.</p>
+        <div class="product-footer">
+          <span class="product-unit">1 kg</span>
+          <a href="tel:+905550077699" class="order-link">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            Sipariş Ver
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- Neden Biz -->
+<section class="why" aria-labelledby="why-title">
+  <div class="section-title">
+    <h2 id="why-title">Neden Sevgi Gıda?</h2>
+    <p>Iğdır'ın en güvenilir yöresel ürün noktası</p>
+    <div class="divider"></div>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon" aria-hidden="true">🌿</div>
+      <h3>%100 Doğal</h3>
+      <p>Tüm ürünlerimiz katkı maddesi ve koruyucu içermez. Doğrudan üreticiden, saf haliyle.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon" aria-hidden="true">📍</div>
+      <h3>Yerel &amp; Taze</h3>
+      <p>Kars, Iğdır ve Ardahan bölgesinin yaylalarından günlük olarak temin edilen taze ürünler.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon" aria-hidden="true">🚚</div>
+      <h3>Hızlı Teslimat</h3>
+      <p>Iğdır içinde aynı gün teslimat. Sabah sipariş verin, öğleden önce kapınızda.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon" aria-hidden="true">📞</div>
+      <h3>Kolay Sipariş</h3>
+      <p>Uygulama veya internet gerekmez. Sadece telefon edin, siparişiniz hazırlansın.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Nasıl Sipariş -->
+<section class="how" aria-labelledby="how-title">
+  <div class="section-title">
+    <h2 id="how-title">Nasıl Sipariş Verilir?</h2>
+    <p>3 adımda taze yöresel ürünler kapınızda</p>
+    <div class="divider"></div>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num" aria-hidden="true">1</div>
+      <h3>Ürün Seçin</h3>
+      <p>Yukarıdaki listeden istediğiniz ürünleri belirleyin.</p>
+    </div>
+    <div class="step">
+      <div class="step-num" aria-hidden="true">2</div>
+      <h3>Bizi Arayın</h3>
+      <p>Aşağıdaki numarayı arayın, siparişinizi ve adresinizi bildirin.</p>
+    </div>
+    <div class="step">
+      <div class="step-num" aria-hidden="true">3</div>
+      <h3>Teslim Alalım</h3>
+      <p>Ürünleriniz en kısa sürede kapınıza teslim edilir.</p>
+    </div>
+  </div>
+  <a href="tel:+905550077699" class="big-call" aria-label="Sipariş için telefon aç">
+    <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.46-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    0555 007 76 99
+  </a>
+  <div class="how-note">Haftanın 7 günü · 08:00 – 20:00 arası</div>
+</section>
+
+<!-- Hakkımızda -->
+<section class="about" id="hakkimizda" aria-labelledby="about-title">
+  <div class="section-title">
+    <h2 id="about-title">Hakkımızda</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="about-inner">
+    <p><strong>Sevgi Gıda</strong>, Iğdır'ın kalbinde yöresel gıda ürünlerini sizlerle buluşturmak için kurulmuştur. Kars, Iğdır ve Ardahan'ın bereketli yaylalarından doğrudan üreticilerle çalışarak en taze, en doğal ürünleri sofralarınıza taşıyoruz.</p>
+    <p>Kaşarından çeçiline, balından tereyağına kadar sunduğumuz her ürün, geleneksel yöntemlerle ve hiçbir katkı maddesi kullanılmadan üretilmektedir. Amacımız; şehrin gürültüsünden uzak, dağ köylerinin saf lezzetini sizinle paylaşmak.</p>
+    <p>Iğdır'ın Kars ve Ardahan sınırına yakın konumu sayesinde bu üç ilin en seçkin ürünlerine kolayca ulaşabiliyoruz. Her ürünümüzün arkasında bir üretici ailesi ve onların emeği var.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-brand">Sevgi Gıda Iğdır</div>
+  <p>Kars · Iğdır · Ardahan Yöresel Ürünleri</p>
+  <p>📞 <a href="tel:+905550077699">0555 007 76 99</a></p>
+  <p>📍 Vali Konağı Yolu Cd. No:76, Bağlar, 76000 Iğdır Merkez/Iğdır</p>
+  <p style="margin-top:16px; font-size:12px; color:rgba(255,255,255,0.35);">© 2025 Sevgi Gıda Iğdır — Tüm Hakları Saklıdır</p>
+</footer>
+
+<script>
+function filterProducts(cat) {
+  const cards = document.querySelectorAll('.product-card');
+  const btns = document.querySelectorAll('.filter-btn');
+
+  btns.forEach(b => b.classList.remove('active'));
+
+  const clickedBtn = [...btns].find(b => b.getAttribute('onclick') === `filterProducts('${cat}')`);
+  if (clickedBtn) clickedBtn.classList.add('active');
+
+  cards.forEach(card => {
+    if (!cat || card.dataset.cat === cat) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+
+  document.getElementById('tum').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
